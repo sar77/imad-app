@@ -15,18 +15,18 @@ var articles={
 },
     'article-two':{
     title:"Article one",
-    heading:"article1",
+    heading:"article2",
     content:`
                 <p>
-                hi from article one content.hi from article one content
+                hi from article 2 content.hi from article 2 content
                 </p>`
 },
     'article-three':{
-    title:"Article one",
+    title:"Article 3",
     heading:"article1",
     content:`
                 <p>
-                hi from article one content.hi from article one content
+                hi from article 3 content.hi from article 3 content
                 </p>`
 }
     
