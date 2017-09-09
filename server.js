@@ -28,6 +28,8 @@ var articles={
                 <p>
                 hi from article one content.hi from article one content
                 </p>`
+}
+    
 };
    
 function createTemplate(data){
