@@ -33,14 +33,14 @@ var articles={
 };
    
 function createTemplate(data){
-    var title=data.title;
+    var tittle=data.tittle;
     var date=data.date;
     var content=data.content;
     var heading =data.heading;
 
 var htmlTemplate=`
             <html>
-            <title>${title} One</title>
+            <title>${tittle} One</title>
                 <meta name="viewport" content="width-device-width,initial-scale=1"/>
             <link href="/ui/style.css" rel="stylesheet"/>
                
