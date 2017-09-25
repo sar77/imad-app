@@ -1,6 +1,6 @@
 console.log('Loaded!');
-alert('hi !helooooo');
-var element=document.getElementById("main-text");
-/*var onClick-function(){
+var img=document.getElementById('madi');
+img.onClick-function(){
+    img.style.marginLeft="100px";
     
-}*/
+}
