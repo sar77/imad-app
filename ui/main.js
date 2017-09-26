@@ -19,6 +19,6 @@ button.onclick=function() {
         }
     };
     //make req
-   request.open('GET',"http://ssameerabanu07.imad.hasura-app.io/",true);
+   request.open('GET','http://ssameerabanu07.imad.hasura-app.io/',true);
    request.send(null);
 };
