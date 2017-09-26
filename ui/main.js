@@ -49,7 +49,7 @@ submit.onclick=function(){
         }
     };
     //make req
-   request.open('GET','http://ssameerabanu07.imad.hasura-app.io/submit-answer?name=',true);
+   request.open('GET','http://ssameerabanu07.imad.hasura-app.io/submit-answer?name=' + name,true);
    request.send(null);
 };
 
