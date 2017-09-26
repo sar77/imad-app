@@ -1,14 +1,14 @@
 console.log('Loaded!');
-var element = document.getElementById('main-text');
-element.innerHTML='new one';
-var img = document.getElementById('madi');
-var marginLeft=0;
-function moveRight()
+var counter=0;
+var button =document.getElementById('counter');
+button.onclick=function()
 {
-    marginLeft=marginLeft + 10;
-    img.style.marginLeft= marginLeft+"px";
-}
-img.onclick = function() {
-    var interval=setInterval(moveRight,200);
+    //mk req to counter end point
     
-};
+    //capture the response and store it in a variable
+    
+    //render the var in the correct span
+    counter=counter+1;
+    var span=document.getElementById('count');
+    span.innerHTML=counter.toString();
+}
