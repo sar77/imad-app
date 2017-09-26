@@ -23,9 +23,9 @@ button.onclick=function() {
    request.send(null);
 };
 ///submit 
-var ninput=document.getElementById("name");
+var ninput=document.getElementById('name');
 var name=ninput.value;
-var submit=document.getElementById("submit");
+var submit=document.getElementById('submit');
 submit.onclick=function(){
     //makereq to server
     // cap list of names
