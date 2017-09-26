@@ -24,14 +24,14 @@ button.onclick=function() {
 };
 ///submit 
 var ninput=document.getElementById("name");
-var name=ninput.value;
+var names=ninput.value;
 var submit=document.getElementById("submit");
 submit.onclick=function(){
     //makereq to server
     // cap list of names
-    var name=['name1','name2','name3','name4'];
+    var names=['name1','name2','name3','name4'];
     var list=' ';
-    for(var i=0;i<name.length;i++){
+    for(var i=0;i<names.length;i++){
         list += '<lis>' + name[i] + '</li>';
     }
     var ul=document.getElementById('namelist');
