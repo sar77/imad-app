@@ -22,8 +22,7 @@ button.onclick=function() {
 };
 ///submit 
 
-var ninput=document.getElementById('name');
-var name=ninput.value;
+
 var submit=document.getElementById('submit_bt');
 submit.onclick=function(){
 
@@ -49,6 +48,8 @@ submit.onclick=function(){
         }
     };
     //make req
+    var ninput=document.getElementById('name');
+    var name=ninput.value;
    request.open('GET','http://ssameerabanu07.imad.hasura-app.io/submit-answer?name=' + name,true);
    request.send(null);
 };
