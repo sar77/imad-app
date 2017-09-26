@@ -24,7 +24,7 @@ button.onclick=function() {
 };
 ///submit 
 var ninput=document.getElementById("name");
-var names=ninput.value;
+var name=ninput.value;
 var submit=document.getElementById("submit");
 submit.onclick=function(){
     //makereq to server
